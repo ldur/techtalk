@@ -1,0 +1,28 @@
+{
+  "resourceName": "dyntechtalk",
+  "tableName": "techtalk",
+  "partitionKey": {
+    "fieldName": "techtalkvol",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "techtalktitles",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "title",
+      "partitionKey": {
+        "fieldName": "techtalktitles",
+        "fieldType": "string"
+      },
+      "sortKey": {
+        "fieldName": "techtalkvol",
+        "fieldType": "string"
+      }
+    }
+  ],
+  "triggerFunctions": [
+    "dyntechtalkTriggeraa2f49d9"
+  ]
+}

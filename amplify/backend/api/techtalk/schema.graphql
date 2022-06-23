@@ -1,0 +1,11 @@
+type Techtalk @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  eventname: String
+  eventdescripion: String
+  eventduration: Float
+  talkcommittdate: AWSDateTime
+  eventlocation: String
+  eventdate: AWSDateTime
+  eventurl: AWSURL
+  eventmail: AWSEmail
+}

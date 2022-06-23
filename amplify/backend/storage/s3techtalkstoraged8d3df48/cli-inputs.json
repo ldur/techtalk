@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3techtalkstoraged8d3df48",
+  "bucketName": "techtalk-storage-d8d3df48",
+  "policyUUID": "939b73e2",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

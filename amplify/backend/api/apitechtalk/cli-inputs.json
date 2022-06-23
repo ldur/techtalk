@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/talks": {
+      "name": "/talks",
+      "lambdaFunction": "techtalkfunct",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

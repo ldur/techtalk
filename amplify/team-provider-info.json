@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-techtalk-staging-114403-authRole",
+      "UnauthRoleArn": "arn:aws:iam::236483949493:role/amplify-techtalk-staging-114403-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::236483949493:role/amplify-techtalk-staging-114403-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-techtalk-staging-114403-deployment",
+      "UnauthRoleName": "amplify-techtalk-staging-114403-unauthRole",
+      "StackName": "amplify-techtalk-staging-114403",
+      "StackId": "arn:aws:cloudformation:us-east-1:236483949493:stack/amplify-techtalk-staging-114403/9d7b9500-f220-11ec-be8a-0e9f53edcef5",
+      "AmplifyAppId": "du9g0ofa6wyez"
+    },
+    "categories": {
+      "auth": {
+        "techtalk": {}
+      }
+    }
+  }
+}
